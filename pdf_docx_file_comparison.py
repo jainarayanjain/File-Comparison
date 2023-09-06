@@ -76,7 +76,7 @@ class ComparisonReport:
             str(self.file2_path),
         )
         diff_report = open(
-            f"C:\\Users\\jai.jain.ACS\\Downloads\\{self.file1name + '-' + self.file2name}.html",
+            f"C:\\Folder\\{self.file1name + '-' + self.file2name}.html",
             "w",
         )
         self.remove_txt_files()
@@ -86,10 +86,10 @@ class ComparisonReport:
 
 if __name__ == "__main__":
     comparison_files_folder = Path(
-        "C:\\Users\\jai.jain.ACS\\Others\\FileComparision\\Files"
+        "C:\\Folder\\"
     )  # Folder path where comparison files are kept
     reference_file = Path(
-        "C:\\Users\\jai.jain.ACS\\Others\\FileComparision\\Files\\Document24.pdf"
+        "C:\\Folder\\File.docx"
     )  # Reference file path
     filepaths = list(comparison_files_folder.glob("*"))
     extract_instance = Extraction()
