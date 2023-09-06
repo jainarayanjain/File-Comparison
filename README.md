@@ -3,7 +3,7 @@
 **pdf_docx_file_comparison** :-> 
 It contains code to compare different files with the reference file </br>
 Allowed combinations are :</br>
-  emsp 1.pdf to pdf</br>
+  &emsp; 1.pdf to pdf</br>
   2.pdf to docx</br>
   3.docx to docx</br>
 Two paths are required from the user:</br>
