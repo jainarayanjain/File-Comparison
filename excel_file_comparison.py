@@ -16,7 +16,7 @@ class CompareExcel:
         """Generate Comparison Report:This method two Excel cell by cell"""
 
         # Output file names
-        output_file = "Compared File.xlsx"
+        output_file = "C:\\Folder\\ComparisonFile.xlsx"
 
         # Load excels
         wb1 = openpyxl.load_workbook(self.file1)
@@ -104,6 +104,6 @@ class CompareExcel:
 if __name__ == "__main__":
     """Main Function"""
 
-    file1 = "C:\\Users\\jai.jain.ACS\\Downloads\\2023-07 JFBWW Breakage (2) (2).xlsx"
-    file2 = "C:\\Users\\jai.jain.ACS\\Downloads\\2023-08 JFBWW Breakage_new.xlsx"
+    file1 = "C:\\Folder\\File1.xlsx"
+    file2 = "C:\\Folder\\File2.xlsx"
     CompareExcel(file1, file2).generate_comparison_report()
