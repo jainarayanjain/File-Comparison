@@ -1,6 +1,7 @@
 # File-Comparison
 
-pdf_docx_file_comparison -> It contains code to compare different files with the reference file
+**pdf_docx_file_comparison** :-> 
+It contains code to compare different files with the reference file
 Allowed combinations are :
   1.pdf to pdf
   2.pdf to docx
